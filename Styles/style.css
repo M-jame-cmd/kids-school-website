@@ -87,4 +87,43 @@
     background-color: #fea301;
     cursor: pointer;
   }
-  
+/* Hero Section Design */
+.hero {
+    align-items: center;
+    justify-content: center;
+    /* margin: 15px auto; */
+  }
+ .hero-container{
+    width: 100%;
+    width: 1410px;
+    align-items: center;
+    justify-content: space-between;
+ } 
+ .hero h1{
+    font-weight:700 ;
+    font-size: 52px;
+    letter-spacing: 0%;
+    line-height:60px;
+    text-align: left;
+ }
+ .hero p{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 24px 0px;
+ }
+ .main-title > button {
+    background-color: #000;
+    color: #fff;
+  }
+  /* Marqee */
+  marquee{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    padding: 15px 0px;
+    background-color: #01ACFD;
+  }
